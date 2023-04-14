@@ -1,8 +1,7 @@
 
 header div .borde-seccion {
     height: max-content;
-  }
-  
+  }  
   .barra-nav {
     border-top-left-radius:  8px;
     border-top-right-radius: 8px;
@@ -36,15 +35,12 @@ header div .borde-seccion {
   }
   
   
-  #logo-argprog{
-      background-color: rgb(6, 8, 109);
-  }
-  .imagen-logo{
-     height: 3em;
-  }
-  
+
   .descripcion{
     margin-top: 3rem;
   }
   
-  
+  app-social{
+    float: right;
+    margin-top: 0;
+ }
