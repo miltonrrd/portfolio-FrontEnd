@@ -1,6 +1,12 @@
 
-header div .borde-seccion {
-    height: max-content;
+ .borde-seccion {
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(175, 175, 231);
+    border-radius: 8px;
+    width:98%;   
+    margin: 0.5%  1.5% 1% 1.5%;
+  
   }  
   .barra-nav {
     border-top-left-radius:  8px;
@@ -9,7 +15,7 @@ header div .borde-seccion {
     border-style: solid;
     border-color:rgb(175, 175, 231);
     height: 70px;
-    width:100%;
+    width: 100%;
     background-color:aliceblue;
     position: sticky;
     top: 0;
@@ -19,26 +25,6 @@ header div .borde-seccion {
   .elementos-nav{
       margin: 10px;
     }
-  
-  .div-imagen-perfil{
-    position: absolute;
-    top: 60%;
-  }
-  
-  .contenedor-banner{
-    position: relative;
-    top: 0;
-  }
-  .imagen-perfil{
-      width: 12em;
-      border-radius: 50%;  
-  }
-  
-  
-
-  .descripcion{
-    margin-top: 3rem;
-  }
   
   app-social{
     float: right;

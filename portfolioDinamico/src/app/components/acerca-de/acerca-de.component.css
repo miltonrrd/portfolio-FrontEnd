@@ -1,5 +1,7 @@
 .row{
     padding: 20px;
+    margin: auto;
+    margin-bottom: 4px;
 }
 
 div{
@@ -14,28 +16,38 @@ div{
         border-style: double;
         border-color: mistyrose;
         border-width: 3px;
-        left: 3%;
-        top: 37%;
+        left: 6%;
+        top: 34%;
     }
 }
 @media(min-width:670px){
     #imagenperfil{
-        top: 40%;
+        top: 37%;
     }
 }
 @media(min-width:770px){
     #imagenperfil{
-        top: 44%;
+        top: 40%;
     }
 }
 @media(min-width:880px){
     #imagenperfil{
-        top: 48%;
+        top: 45%;
     }
 }
 @media(min-width:1040px){
     #imagenperfil{
         top: 50%;
+    }
+}
+@media(min-width:1140px){
+    #imagenperfil{
+        top: 55%;
+    }
+}
+@media(min-width:1240px){
+    #imagenperfil{
+        top: 60%;
     }
 }
 
@@ -52,9 +64,8 @@ div{
     }
 }
 
-
 #nombre{
     font-weight: bold;
-    margin-top: 20%;
+    margin-top: 25%;
 }
 
