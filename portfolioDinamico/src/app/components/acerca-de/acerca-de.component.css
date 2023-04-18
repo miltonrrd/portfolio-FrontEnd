@@ -1,0 +1,60 @@
+.row{
+    padding: 20px;
+}
+
+div{
+    background-color:aliceblue;
+    text-align: center;
+}
+@media(min-width:576px){
+    #imagenperfil{
+        position: absolute;
+        border-radius: 100%;
+        width: 18%;
+        border-style: double;
+        border-color: mistyrose;
+        border-width: 3px;
+        left: 3%;
+        top: 37%;
+    }
+}
+@media(min-width:670px){
+    #imagenperfil{
+        top: 40%;
+    }
+}
+@media(min-width:770px){
+    #imagenperfil{
+        top: 44%;
+    }
+}
+@media(min-width:880px){
+    #imagenperfil{
+        top: 48%;
+    }
+}
+@media(min-width:1040px){
+    #imagenperfil{
+        top: 50%;
+    }
+}
+
+@media(max-width:575px){
+    #imagenperfil{
+        position: absolute;
+        border-radius: 100%;
+        width: 40%;
+        border-style: double;
+        border-color: mistyrose;
+        border-width: 3px;
+        left: 31%;
+        top: 150px;
+    }
+}
+
+
+#nombre{
+    font-weight: bold;
+    margin-top: 20%;
+}
+
