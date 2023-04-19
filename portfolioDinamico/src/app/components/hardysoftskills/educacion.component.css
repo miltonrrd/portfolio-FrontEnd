@@ -1,0 +1,17 @@
+.contenedor-estudios{
+    padding: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(175, 175, 231);
+    border-radius: 8px;
+    width:98%;   
+    margin: 0  1.5% 1% 1.5%;  
+}
+
+div{
+    background-color: aliceblue;
+}
+
+h3, h4{
+    display: inline;
+}
