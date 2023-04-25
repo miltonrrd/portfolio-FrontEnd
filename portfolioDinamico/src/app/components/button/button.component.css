@@ -25,3 +25,9 @@
   button:active {
     transform: translateY(-1px);
   }
+
+  @media (max-width:463px){
+    button{
+      width: 100%;
+    }
+  }
