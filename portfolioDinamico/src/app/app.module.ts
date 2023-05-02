@@ -12,6 +12,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HardysoftskillsComponent } from './components/hardysoftskills/hardysoftskills.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -47,9 +48,11 @@ import { FooterComponent } from './components/footer/footer.component';
       "showBackground": false,
       "clockwise": false,
       "startFromZero": false,
-      "lazy": true})
+      "lazy": true}),
+      HttpClientModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+ 
 })
 export class AppModule { }
